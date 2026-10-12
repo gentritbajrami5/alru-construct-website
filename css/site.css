@@ -141,11 +141,25 @@ html.js body.is-leaving footer {
   touch-action: manipulation;
 }
 
+.absolute.inset-0 > picture {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.absolute.inset-0 > picture > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .photo-fit {
   position: relative;
   overflow: hidden;
 }
-.photo-fit > img {
+.photo-fit > img,
+.photo-fit > picture,
+.photo-fit > picture > img {
   position: absolute;
   inset: 0;
   display: block;
@@ -154,7 +168,7 @@ html.js body.is-leaving footer {
   object-fit: cover;
   object-position: center;
 }
-.photo-fit > :not(img) {
+.photo-fit > :not(img):not(picture) {
   position: relative;
   z-index: 1;
 }

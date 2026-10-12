@@ -62,7 +62,10 @@
   <main id="hoofdinhoud">
     <section class="relative flex min-h-[42svh] items-end overflow-hidden bg-ink pb-12 pt-28 sm:min-h-[48svh] sm:pb-16">
       <div class="absolute inset-0" aria-hidden="true">
-        <img src="assets/villa.jpg" alt="" class="h-full w-full object-cover">
+        <picture>
+          <source srcset="assets/villa.webp" type="image/webp">
+          <img src="assets/villa.jpg" alt="" class="h-full w-full object-cover" width="900" height="1200" fetchpriority="high" decoding="async">
+        </picture>
         <div class="hero-shade absolute inset-0"></div>
       </div>
       <div class="relative mx-auto w-full max-w-7xl px-4 sm:px-5 lg:px-8">
@@ -78,7 +81,10 @@
         <p class="max-w-2xl text-lg text-zinc-600">Eigen werven van Alru Construct: ruwbouw, beton en infra in West Vlaanderen.</p>
         <div class="mt-14 grid grid-cols-1 gap-4 md:grid-cols-6 md:grid-rows-2">
           <article class="photo-fit reveal min-h-[240px] rounded-3xl md:col-span-4 md:row-span-2 md:min-h-[560px]">
-            <img src="assets/villa.jpg" alt="Moderne villa in rode gevelsteen" class="h-full w-full object-cover">
+            <picture>
+          <source srcset="assets/villa.webp" type="image/webp">
+          <img src="assets/villa.jpg" alt="Moderne villa in rode gevelsteen" class="h-full w-full object-cover" width="900" height="1200" loading="lazy" decoding="async">
+        </picture>
             <div class="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/20 to-transparent"></div>
             <div class="absolute bottom-6 left-6 right-6 text-white">
               <p class="text-xs font-semibold uppercase tracking-[0.18em] text-brand">Bouwwerken</p>
@@ -86,7 +92,10 @@
             </div>
           </article>
           <article class="photo-fit reveal min-h-[220px] rounded-3xl md:col-span-2">
-            <img src="assets/gevel.jpg" alt="Witte baksteengevel met stelling" class="h-full w-full object-cover">
+            <picture>
+          <source srcset="assets/gevel.webp" type="image/webp">
+          <img src="assets/gevel.jpg" alt="Witte baksteengevel met stelling" class="h-full w-full object-cover" width="1200" height="1200" loading="lazy" decoding="async">
+        </picture>
             <div class="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/10 to-transparent"></div>
             <div class="absolute bottom-5 left-5 right-5 text-white">
               <p class="text-xs font-semibold uppercase tracking-[0.18em] text-brand">Bouwwerken</p>
@@ -94,7 +103,10 @@
             </div>
           </article>
           <article class="photo-fit reveal min-h-[220px] rounded-3xl md:col-span-2">
-            <img src="assets/hero.jpg" alt="Betonwoning met hijskraan onder blauwe hemel" class="h-full w-full object-cover">
+            <picture>
+          <source srcset="assets/hero.webp" type="image/webp">
+          <img src="assets/hero.jpg" alt="Betonwoning met hijskraan onder blauwe hemel" class="h-full w-full object-cover" width="1920" height="1440" loading="lazy" decoding="async">
+        </picture>
             <div class="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/10 to-transparent"></div>
             <div class="absolute bottom-5 left-5 right-5 text-white">
               <p class="text-xs font-semibold uppercase tracking-[0.18em] text-brand">Betonwerken</p>
@@ -104,28 +116,40 @@
         </div>
         <div class="mt-4 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           <article class="photo-fit reveal min-h-[220px] rounded-3xl">
-            <img src="assets/bouw.jpg" alt="Rijwoningen in rode gevelsteen" class="h-full w-full object-cover">
+            <picture>
+          <source srcset="assets/bouw.webp" type="image/webp">
+          <img src="assets/bouw.jpg" alt="Rijwoningen in rode gevelsteen" class="h-full w-full object-cover" width="1200" height="1200" loading="lazy" decoding="async">
+        </picture>
             <div class="absolute inset-0 bg-gradient-to-t from-ink/80 via-transparent to-transparent"></div>
             <div class="absolute bottom-5 left-5 text-white">
               <h2 class="font-extrabold">Metselwerk &amp; ruwbouw</h2>
             </div>
           </article>
           <article class="photo-fit reveal min-h-[220px] rounded-3xl">
-            <img src="assets/fundering.jpg" alt="Kelder en fundering in beton met isolatie" class="h-full w-full object-cover">
+            <picture>
+          <source srcset="assets/fundering.webp" type="image/webp">
+          <img src="assets/fundering.jpg" alt="Kelder en fundering in beton met isolatie" class="h-full w-full object-cover" width="1600" height="1200" loading="lazy" decoding="async">
+        </picture>
             <div class="absolute inset-0 bg-gradient-to-t from-ink/80 via-transparent to-transparent"></div>
             <div class="absolute bottom-5 left-5 text-white">
               <h2 class="font-extrabold">Fundering &amp; kelder</h2>
             </div>
           </article>
           <article class="photo-fit reveal min-h-[220px] rounded-3xl">
-            <img src="assets/structuur.jpg" alt="Betonnen balkenstructuur op de werf" class="h-full w-full object-cover">
+            <picture>
+          <source srcset="assets/structuur.webp" type="image/webp">
+          <img src="assets/structuur.jpg" alt="Betonnen balkenstructuur op de werf" class="h-full w-full object-cover" width="1600" height="1200" loading="lazy" decoding="async">
+        </picture>
             <div class="absolute inset-0 bg-gradient-to-t from-ink/80 via-transparent to-transparent"></div>
             <div class="absolute bottom-5 left-5 text-white">
               <h2 class="font-extrabold">Betonstructuur</h2>
             </div>
           </article>
           <article class="photo-fit reveal min-h-[220px] rounded-3xl">
-            <img src="assets/industrie.jpg" alt="Industriële werf met kraan en betonplaat" class="h-full w-full object-cover">
+            <picture>
+          <source srcset="assets/industrie.webp" type="image/webp">
+          <img src="assets/industrie.jpg" alt="Industriële werf met kraan en betonplaat" class="h-full w-full object-cover" width="1600" height="1200" loading="lazy" decoding="async">
+        </picture>
             <div class="absolute inset-0 bg-gradient-to-t from-ink/80 via-transparent to-transparent"></div>
             <div class="absolute bottom-5 left-5 text-white">
               <h2 class="font-extrabold">Infra &amp; terreinaanleg</h2>
@@ -134,7 +158,10 @@
         </div>
         <div class="mt-4">
           <article class="photo-fit reveal min-h-[240px] rounded-3xl md:min-h-[320px]">
-            <img src="assets/wapening.jpg" alt="Wapeningsnet klaar voor een betonstort" class="h-full w-full object-cover">
+            <picture>
+          <source srcset="assets/wapening.webp" type="image/webp">
+          <img src="assets/wapening.jpg" alt="Wapeningsnet klaar voor een betonstort" class="h-full w-full object-cover" width="1200" height="1200" loading="lazy" decoding="async">
+        </picture>
             <div class="absolute inset-0 bg-gradient-to-t from-ink/80 via-transparent to-transparent"></div>
             <div class="absolute bottom-6 left-6 text-white">
               <p class="text-xs font-semibold uppercase tracking-[0.18em] text-brand">Betonwerken</p>
